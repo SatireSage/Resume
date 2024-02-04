@@ -5,7 +5,9 @@ Welcome to my Resume and Cover Letter repository! This repository contains the s
 ## Repository Contents
 
 - `Sahaj_Singh_Resume.tex`: The main LaTeX source file for my resume.
+  - `Sahaj_Singh_Resume_Dark.tex`: Dark Variant of my resume.
 - `Sahaj_Singh_Resume.pdf`: A compiled PDF version of the resume for quick viewing.
+  - `Sahaj_Singh_Resume_Dark.pdf`: A compiled PDF version of the Dark variant.
 - `Sahaj_Singh_cover_letter.tex`: The main LaTeX source file for my cover letter.
 - `Sahaj_Singh_cover_letter.pdf`: A compiled PDF version of the cover letter for quick viewing.
 
