@@ -72,7 +72,7 @@
 }
 
 \newcommand{\school} [6] {
-    {\textbf{#1} \hfill \textbf{#5 --- #6}\\ \textbf{#3} \hfill #2\\ \begin{itemize}[topsep=0pt,itemsep=-2pt]\item{\textbf{\emph{#4}}}\end{itemize}}
+    {\textbf{#3 | #4} \hfill \textbf{#5 --- #6}\\ \textbf{\emph{#1}} \hfill #2\\}
 }
 
 \newcommand{\workItemListStart} [0] {
@@ -108,25 +108,22 @@
 
     %----Skills----%
     \section{TECHNICAL SKILLS}
-    \begin{itemize}[leftmargin=0in, label={}]
-    \small{\item{
-        \textbf{Programming Languages:}{ C / C++, VHDL, Python, MATLAB, Bash, Java, Assembly, HTML5/CSS3, Javascript, Flutter} \\
-        \textbf{Tools, Frameworks \& Technologies:}{ Linux, Git, Jira, React, TensorFlow, PyCharm, Visual Studio Code, macOS, Windows, Android} \\
-        \textbf{Linux:}{ Admin, Bash, Kernel Config, Package Mgmt (APT, YUM), Networking, UFW/iptables, FS Mgmt, cron, SSH} \\
-        \textbf{Relevant Courses:}{ Embedded Systems, Digital Systems Design, Fundamentals of Digital Logic and Design} \\
-    }}
-    \end{itemize}
+    \noindent\begin{tabularx}{\textwidth}{@{}lX@{}}
+    \textbf{Programming Languages:\hspace*{1em}} & \textbf{C / C++}, \textbf{VHDL}, \textbf{Python}, MATLAB, Bash, Java, Assembly, \textbf{SQL}, \textbf{HTML5/CSS3/JS}, Flutter \\
+    \textbf{Tech Stack:} & \textbf{Linux}, \textbf{Git}, \textbf{Jira}, React, TensorFlow, PyCharm, \textbf{VS Code}, \textbf{macOS}, Windows, Android \\
+    \textbf{Linux:} & \textbf{SSH}, Admin, \textbf{Bash/Zsh/Csh}, Kernel Config, Pkg/FS Mgmt, Networking, UFW/iptables, cron \\
+    \textbf{Relevant Courses:} & \textbf{Embedded Systems}, Digital Systems Design, \textbf{Fundamentals of Digital Logic and Design} \\
+    \end{tabularx}
     %----End of Skills----%
 
     %----Experience----%
     \section{WORK EXPERIENCE}
     \employer{Microchip Technology Inc.}{Burnaby, BC}{CBU Software Engineer}{Jan 2024}{Present}
     \workItemListStart{}
-        \Item{Reviewing the datasheet for the \textbf{Meta DX2+} and \textbf{META-DX} chipset.}
-        \Item{Developing/supporting test framework for both pre-silicon and post-silicon testing.}
+        \Item{Developing/supporting test framework for both pre-silicon and post-silicon testing for the \textbf{Meta DX2+} and \textbf{META-DX} chipset.}
         \Item{Setup and configuration evaluations boards for \textbf{SW verification}.}
     \workItemListEnd{}
-    \employer{Simon Fraser University}{Burnaby, BC}{ENSC 252 | Fundamentals Of Digital Logic & Design | Teaching Assistant (TA)}{Sep 2023}{Dec 2023}
+    \employer{Simon Fraser University}{Burnaby, BC}{ENSC 252 | Fundamentals Of Digital Logic \& Design | Teaching Assistant (TA)}{Sep 2023}{Dec 2023}
     \workItemListStart{}
     \Item{Assist students in understanding \textbf{digital logic and design concepts} during lab sessions, tutorials, and office hours.}
     \Item{Designed, supervised, and graded \textbf{bonus projects} to test students' understanding of the course material. Incorporated Concepts such as \textbf{One Hot Encoding, Debouncing Circuits,} and \textbf{Finite State Machines {Moore}}.}
@@ -135,7 +132,7 @@
     \employer{picoTera Electronics Inc.}{Richmond, BC}{Software/Firmware Developer}{Jan}{April 2022}
     \workItemListStart{}
         \Item{Developed advanced firmware using \textbf{Object-Oriented Programming (OOP)} principles in \textbf{C/C++} for \textbf{PSoC6 and ARM Cortex-M4, M0 platforms} and ported the project from PSoC creator to ModusToolbox 2.4 for better compatibility.}
-        \Item{Implemented modifications to a \textbf{TensorFlow based Recurrent Neural Network (RNN) model written in Python} and \textbf{ported in C} for Cortex-M4 devices, reducing noise in audio denoising applications approximately from \textbf{90+ decibels down to 60 decibels.} Additionally, created a custom audio dataset to train the RNN model, increasing the variety of noise profiles for training by a factor of 3.}
+        \Item{Implemented modifications to a \textbf{TensorFlow based Recurrent Neural Network (RNN) model written in Python} and \textbf{ported in C} for Cortex-M4 devices, reducing noise in audio denoising applications approximately from \textbf{90+ decibels down to 60 decibels.} Additionally, created a custom audio dataset to train the RNN model, increasing the variety of noise profiles.}
         % \Item{Replaced dynamic gain with static gain, optimizing post-processing audio quality, and \textbf{boosting denoising performance by 25\%.}}
         \Item{Authored custom \textbf{cmake scripts for CMSIS libraries}, reducing memory usage and storage in complex operations and enabled Bluetooth Low Energy \textbf{(BLE) integration} between PSoC6 and an Android app, facilitating real-time data transmission.}
     \workItemListEnd{}
@@ -149,31 +146,30 @@
         \Item{Designed a full-fledged VHDL implementation, bolstered by \textbf{comprehensive testbenches and simulations} to ensure proper functionality across both transmitter and receiver modules.}
         \Item{Enabled \textbf{synchronous data transmission between UART devices} and allowed for seamless operation via onboard switches and keys for data input, baud rate selection, and module reset.}
     \resumeItemListEnd{}
-    % \href{https://github.com/SatireSage/FASTrack}{{\color{colorValue}\faIcon{link}} \underline{\textbf{FASTrack - Reaction Time Game:}}} \hfill \textbf{Summer 2022}
-    % \resumeItemListStart{}
-    %     \Item{Developed a reaction time-based game for the Xilinx ZedBoard, utilizing the \textbf{ARM7 assembly instruction} set.}
-    %     \Item{Implemented various game features such as multiple speed modes and user controls through switches. Utilized OLED display and LEDs for visual feedback.}
-    %     \Item{Demonstrated key concepts including timer interrupts, masking, OLED display usage, and \textbf{Finite State Machines (FSMs)}.}
-    % \resumeItemListEnd{}
     \href{https://github.com/SatireSage/Scrolling-Message-Display-Board}{{\color{colorValue}\faIcon{link}} \underline{\textbf{Scrolling Message Display Board (SMDB):}}} \hfill \textbf{Fall 2021}
     \resumeItemListStart{}
         \Item{Developed VHDL code to drive scrolling messages on a HEX display, ensuring fluid motion and clear visibility.}
         \Item{Designed a \textbf{custom Instruction Set Architecture for the ASIP} to meet the board's specific demands.}
-        \Item{Deployed and rigorously tested the entire system via testbenches and on an \textbf{Altera DE2-115 board using Quartus} via c\textbf{ustom/edge cases}, confirming stable performance and reliability.}
+        \Item{Deployed and rigorously tested the entire system via testbenches and on an \textbf{Altera DE2-115 board using Quartus} via \textbf{custom/edge cases}, confirming stable performance and reliability.}
     \resumeItemListEnd{}
     %----End of Projects----%
 
     %----Education----%
     \section{EDUCATION}
-    \school{Simon Fraser University}{Burnaby, BC}{B.A.Sc. Computer Engineering}{Computing Science Minor}{Sep 2020}{Present}
+    \school{Simon Fraser University}{Burnaby, BC}{B.A.Sc. Computer Engineering Major -- Honours}{Computing Science Minor}{Sep 2020}{Present}
     %----End of Education----%
 
     %----Awards----%
-    \section{LEADERSHIP EXPERIENCE}
+    \section{LEADERSHIP EXPERIENCE \& AWARDS}
     \employer{MathWorks}{Burnaby/Surrey, BC}{MATLAB --- SFU Student Ambassador}{Oct 2022}{Present}
     \workItemListStart{}
         \Item{Organizing and hosting numerous programming and simulation based events revolving around \textbf{MATLAB and Simulink.}}
         \Item{Providing support for students with MATLAB and Simulink.\@ Creating meaningful relationships between \textbf{MathWorks and SFU.}}
+        \Item{Collaborate with various Student Societies and Events held across all SFU campuses.}
+    \workItemListEnd{}
+    \employer{Engineering Science Student Society (ESSS) | Simon Fraser University}{Burnaby/Surrey, BC}{ESSS Innovation Award | ESSEF Award}{Fall 2021}{2022}
+    \workItemListStart{}
+        \Item{Recognized for outstanding creativity and impact via my projects. Honors contributions to the student society.}
     \workItemListEnd{}
     %----End of Awards----%
 
